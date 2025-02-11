@@ -34,7 +34,7 @@
     "red1": "#db4b4b",
     "hoverBackground": "#232433",
     "selectionInactiveBackground": "#414868",
-    "separatorColor": "#545c7e"
+    "separatorColor": "#36374F"
   },
   "ui": {
     "*": {
