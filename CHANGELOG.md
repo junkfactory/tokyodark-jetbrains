@@ -4,7 +4,7 @@
 
 ## [Unreleased]
 
-See GitHub [Releases](https://github.com/junkfactory/tokyonight-jetbrains/releases) for changes
+See GitHub [Releases](https://github.com/junkfactory/tokyodark-jetbrains/releases) for changes
 
 ### Added
 
@@ -28,4 +28,4 @@ See GitHub [Releases](https://github.com/junkfactory/tokyonight-jetbrains/releas
 ## 0.2.0
 
 - Removed unsupported themes, only dark is supported
-- Fork from <https://github.com/alexadhy/tokyonight-jetbrains>
+- Fork from <https://github.com/alexadhy/tokyodark-jetbrains>

@@ -36,4 +36,4 @@ _On Your Jetbrains IDE_:
 - Search for "Tokyo Dark"
 - Install Plugin
 
-Copyright &copy; 2025-present [Junk F. Actory](https://github.com/junkfactory/tokyonight-jetbrains)
+Copyright &copy; 2025-present [Junk F. Actory](https://github.com/junkfactory/tokyodark-jetbrains)
