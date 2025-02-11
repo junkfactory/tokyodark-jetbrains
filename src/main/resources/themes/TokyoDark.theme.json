@@ -34,7 +34,9 @@
     "red1": "#db4b4b",
     "hoverBackground": "#232433",
     "selectionInactiveBackground": "#414868",
-    "separatorColor": "#36374F"
+    "separatorColor": "#36374F",
+    "selectionBackground": "#304285",
+    "shadowColor": "#161823"
   },
   "ui": {
     "*": {
@@ -76,6 +78,7 @@
       "foreground": "fg",
       "startBorderColor": "hoverBackground",
       "endBorderColor": "hoverBackground",
+      "shadowColor": "shadowColor",
       "startBackground": "hoverBackground",
       "endBackground": "hoverBackground",
       "focusedBorderColor": "blue0",
@@ -110,10 +113,15 @@
     },
     "ComboPopup.border": "1,1,1,1",
     "CompletionPopup": {
+      "Advertiser": {
+        "background": "bg",
+        "borderInsets.compact": "2,12,2,8"
+      },
       "foreground": "fg",
       "selectionBackground": "selectionBackground",
-      "selectionInactiveBackground": "selectionInactiveBackground",
-      "matchForeground": "orange"
+      "selectionInactiveBackground": "selectionBackground",
+      "matchForeground": "orange",
+      "selectionInnerInsets.compact": "0,2,0,2"
     },
     "Component": {
       "arrowAreaWidth": "28",

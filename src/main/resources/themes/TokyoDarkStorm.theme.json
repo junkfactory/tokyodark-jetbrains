@@ -4,7 +4,7 @@
   "author": "Junk F. Actory <2998269+junkfactory@users.noreply.github.com>",
   "editorScheme": "/themes/TokyoDarkStorm.xml",
   "colors": {
-    "bgHi": "#161720",
+    "bgHi": "#202435",
     "bg": "#24283b",
     "terminalBlack": "#414868",
     "fg": "#c0caf5",
@@ -34,20 +34,22 @@
     "red1": "#db4b4b",
     "hoverBackground": "#232433",
     "selectionInactiveBackground": "#414868",
-    "separatorColor": "#36374F"
+    "separatorColor": "#36374F",
+    "selectionBackground": "#304285",
+    "shadowColor": "#161823"
   },
   "ui": {
     "*": {
       "acceleratorForeground": "blue",
       "acceleratorSelectionForeground": "blue",
       "arc": 7,
-      "background": "bg",
+      "background": "#202435",
       "foreground": "fgDark",
       "caretForeground": "fgDark",
       "infoForeground": "fgDark",
       "selectionForeground": "fg",
       "selectionInactiveForeground": "fg",
-      "selectionBackground": "#304285",
+      "selectionBackground": "selectionBackground",
       "selectionInactiveBackground": "selectionInactiveBackground",
       "inactiveBackground": "bgHi",
       "disabledBackground": "bgHi",
@@ -80,8 +82,9 @@
       "foreground": "fg",
       "startBorderColor": "hoverBackground",
       "endBorderColor": "hoverBackground",
-      "startBackground": "hoverBackground",
-      "endBackground": "hoverBackground",
+      "shadowColor": "shadowColor",
+      "startBackground": "bg",
+      "endBackground": "bg",
       "focusedBorderColor": "blue0",
       "disabledBorderColor": "bgHi",
       "default": {
@@ -114,10 +117,15 @@
     },
     "ComboPopup.border": "1,1,1,1",
     "CompletionPopup": {
+      "Advertiser": {
+        "background": "bg",
+        "borderInsets.compact": "2,12,2,8"
+      },
       "foreground": "fg",
       "selectionBackground": "selectionBackground",
-      "selectionInactiveBackground": "selectionInactiveBackground",
-      "matchForeground": "orange"
+      "selectionInactiveBackground": "selectionBackground",
+      "matchForeground": "orange",
+      "selectionInnerInsets.compact": "0,2,0,2"
     },
     "Component": {
       "arrowAreaWidth": "28",
@@ -333,7 +341,7 @@
       },
       "Header": {
         "background": "bg",
-        "inactiveBackground": "bgHi",
+        "inactiveBackground": "bg",
         "borderColor": "hoverBackground"
       },
       "HeaderTab": {
@@ -384,16 +392,19 @@
       }
     },
     "WelcomeScreen": {
+      "background": "bg",
       "SidePanel": {
         "background": "bg"
       },
       "separatorColor": "fgGutter",
       "Projects": {
         "background": "bg",
-        "selectionBackground": "hoverBackground",
+        "selectionBackground": "selectionBackground",
         "selectionInactiveBackground": "hoverBackground",
         "actions": {
-          "background": "hoverBackground"
+          "background": "bg",
+          "selectionBackground": "selectionBackground",
+          "selectionBorderColor": "selectionBackground"
         }
       }
     },
