@@ -139,14 +139,16 @@
     },
     "DefaultTabs": {
       "background": "bgHi",
-      "borderColor": "hoverBackground",
+      "borderColor": "bg",
       "hoverBackground": "hoverBackground",
       "inactiveUnderlineColor": "comment",
-      "underlineColor": "blue"
+      "underlineColor": "blue",
+      "underlinedTabBackground": "bgHi"
     },
     "EditorTabs": {
       "underlineHeight.compact": 1,
-      "underlinedTabBackground": "hoverBackground"
+      "underlinedTabBackground": "#24283b",
+      "background": "bgHi"
     },
     "Editor": {
       "background": "bgHi",
@@ -192,7 +194,7 @@
       }
     },
     "Notification": {
-      "background": "hoverBackground",
+      "background": "bg",
       "errorBorderColor": "red1",
       "errorBackground": "bgHi",
       "errorForeground": "fg",
@@ -264,14 +266,18 @@
       "selectionBackground": "hoverBackground"
     },
     "ScrollBar": {
+      "hoverTrackColor": "selectionBackground",
       "background": "bgHi",
+      "thumbColor": "selectionBackground",
       "Mac": {
         "hoverThumbColor": "hoverBackground",
+        "thumbColor": "selectionBackground",
         "Transparent": {
-          "hoverThumbColor": "hoverBackground"
+          "thumbColor": "selectionBackground"
         }
       }
     },
+    "ScrollPane.background": "bgHi",
     "SearchEverywhere": {
       "Advertiser.foreground": "fg",
       "SearchField": {
@@ -283,8 +289,8 @@
       }
     },
     "SearchMatch": {
-      "startBackground": "blue0",
-      "endBackground": "blue0"
+      "startBackground": "blue7",
+      "endBackground": "blue7"
     },
     "Separator": {
       "separatorColor": "separatorColor"
@@ -302,7 +308,6 @@
       "tabHeight": 40,
       "tabSelectionArc": 4,
       "tabSelectionHeight": 1,
-      "focusColor": "hoverBackground",
       "hoverColor": "hoverBackground",
       "underlineColor": "blue",
       "contentAreaColor": "bgHi"
@@ -344,16 +349,19 @@
         "hoverBackground": "hoverBackground"
       },
       "Header": {
+        "background": "bgHi",
         "inactiveBackground": "bgHi",
-        "borderColor": "hoverBackground"
+        "borderColor": "hoverBackground",
+        "height": 24
       },
       "HeaderTab": {
         "underlineColor": "magenta2",
         "inactiveUnderlineColor": "fgDark",
         "underlineHeight": 1,
-        "underlinedTabBackground": "dark3",
-        "selectedInactiveBackground": "bgHi",
-        "hoverBackground": "hoverBackground"
+        "underlinedTabBackground": "bg",
+        "selectedInactiveBackground": "bg",
+        "hoverBackground": "hoverBackground",
+        "underlinedTabInactiveBackground": "bg"
       }
     },
     "Tree": {
