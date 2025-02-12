@@ -13,11 +13,11 @@ repo name must be unique so the new one is `tokyodark-jetbrains`.
 
 <!-- Plugin description end -->
 
-- TokyoDark
+## Available Themes
 
-![Java](./static/java_tokyonight_dark.png)
-![GoLang](./static/golang_tokyonight_dark.png)
-![Python](./static/python_tokyonight_dark.png)
+![Tokyo Night Dark](./static/tokyonight_dark.png)
+![Tokyo Night Storage](./static/tokyonight_storm.png)
+![Tokyo Dark Contrast](./static/tokyodark_contrast.png)
 
 ## Differences between this one and the theme by Grafikart
 
