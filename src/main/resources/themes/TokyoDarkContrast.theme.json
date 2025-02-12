@@ -59,6 +59,7 @@
       "borderColor": "bg",
       "separatorColor": "separatorColor"
     },
+    "MemoryIndicator.usedBackground": "bgHi",
     "ComplexPopup": {
       "Header.background": "bg"
     },
