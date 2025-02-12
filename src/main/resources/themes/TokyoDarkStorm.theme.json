@@ -43,7 +43,7 @@
       "acceleratorForeground": "blue",
       "acceleratorSelectionForeground": "blue",
       "arc": 7,
-      "background": "#202435",
+      "background": "bgHi",
       "foreground": "fgDark",
       "caretForeground": "fgDark",
       "infoForeground": "fgDark",
