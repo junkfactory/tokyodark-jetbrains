@@ -38,8 +38,6 @@ jobs:
       # Setup Gradle
       - name: Setup Gradle
         uses: gradle/actions/setup-gradle@v4
-        with:
-          cache-cleanup: true
 
       - name: Build Plugin
         run: |
