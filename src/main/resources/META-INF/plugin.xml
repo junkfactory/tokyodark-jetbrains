@@ -7,5 +7,6 @@
     <extensions defaultExtensionNs="com.intellij">
         <themeProvider id="com.junkfactory.tokyodark" path="/themes/TokyoDark.theme.json"/>
         <themeProvider id="com.junkfactory.tokyodark-storm" path="/themes/TokyoDarkStorm.theme.json"/>
+        <themeProvider id="com.junkfactory.tokyodark-contrast" path="/themes/TokyoDarkContrast.theme.json"/>
     </extensions>
 </idea-plugin>
