@@ -76,9 +76,9 @@
     },
     "Button": {
       "foreground": "fg",
-      "startBorderColor": "hoverBackground",
-      "endBorderColor": "hoverBackground",
-      "shadowColor": "shadowColor",
+      "startBorderColor": "bgHi",
+      "endBorderColor": "bgHi",
+      "shadowColor": "bg",
       "startBackground": "hoverBackground",
       "endBackground": "hoverBackground",
       "focusedBorderColor": "blue0",
