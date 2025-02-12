@@ -6,6 +6,7 @@
   "colors": {
     "bgHi": "#1a1b26",
     "bg": "#304285",
+    "inactiveBackground": "#26356a",
     "terminalBlack": "#414868",
     "fg": "#c0caf5",
     "fgDark": "#a9b1d6",
@@ -51,16 +52,19 @@
       "selectionInactiveForeground": "fg",
       "selectionBackground": "#1a1b26",
       "selectionInactiveBackground": "selectionInactiveBackground",
-      "inactiveBackground": "bgHi",
+      "inactiveBackground": "inactiveBackground",
       "disabledBackground": "bgHi",
       "disabledBorderColor": "bgHi",
       "disabledForeground": "dark5",
-      "borderColor": "bgHi",
+      "borderColor": "bg",
       "separatorColor": "separatorColor"
     },
+    "ComplexPopup": {
+      "Header.background": "bg"
+    },
     "Borders": {
-      "color": "bgHi",
-      "ContrastBorderColor": "hoverBackground"
+      "color": "bg",
+      "ContrastBorderColor": "inactiveBackground"
     },
     "ActionButton": {
       "hoverBackground": "hoverBackground",
@@ -78,7 +82,7 @@
       "foreground": "fg",
       "startBorderColor": "bgHi",
       "endBorderColor": "bgHi",
-      "shadowColor": "bg",
+      "shadowColor": "bgHi",
       "startBackground": "hoverBackground",
       "endBackground": "hoverBackground",
       "focusedBorderColor": "blue0",
@@ -142,12 +146,12 @@
       "borderColor": "bg",
       "hoverBackground": "hoverBackground",
       "inactiveUnderlineColor": "comment",
-      "underlineColor": "blue",
-      "underlinedTabBackground": "bgHi"
+      "underlineColor": "fg",
+      "underlinedTabBackground": "bg"
     },
     "EditorTabs": {
       "underlineHeight.compact": 1,
-      "underlinedTabBackground": "#24283b",
+      "underlinedTabBackground": "bg",
       "background": "bgHi"
     },
     "Editor": {
@@ -178,6 +182,7 @@
       "selectionBackground": "hoverBackground"
     },
     "List": {
+      "background": "bgHi",
       "rowHeight": 24,
       "Button": {
         "separatorInset": 4,
@@ -250,13 +255,18 @@
       "passedColor": "green"
     },
     "Popup": {
+      "borderColor": "bg",
+      "background": "bgHi",
       "borderWidth": 1,
+      "Toolbar.borderColor": "bg",
+      "Toolbar.background": "bgHi",
       "Header": {
-        "activeBackground": "hoverBackground",
+        "activeBackground": "bg",
         "inactiveBackground": "hoverBackground"
       },
       "Advertiser": {
-        "foreground": "dark5"
+        "foreground": "dark5",
+        "background": "bg"
       }
     },
     "RadioButton": {
@@ -279,12 +289,16 @@
     },
     "ScrollPane.background": "bgHi",
     "SearchEverywhere": {
-      "Advertiser.foreground": "fg",
+      "Header.background": "bg",
+      "Advertiser": {
+        "background": "bg",
+        "foreground": "fg"
+      },
       "SearchField": {
         "background": "hoverBackground"
       },
       "Tab": {
-        "selectedBackground": "hoverBackground",
+        "selectedBackground": "bg",
         "selectedForeground": "fg"
       }
     },
@@ -305,6 +319,7 @@
       "borderColor": "bg"
     },
     "TabbedPane": {
+      "background": "bgHi",
       "tabHeight": 40,
       "tabSelectionArc": 4,
       "tabSelectionHeight": 1,
@@ -323,10 +338,11 @@
       "background": "bgHi"
     },
     "TextField": {
-      "background": "hoverBackground",
+      "background": "bgHi",
       "minimumSize": "49,28"
     },
     "TitlePane": {
+      "background": "bgHi",
       "Button": {
         "preferredSize": "40,40",
         "preferredSize.compact": "40,30"
@@ -351,7 +367,7 @@
       "Header": {
         "background": "bgHi",
         "inactiveBackground": "bgHi",
-        "borderColor": "hoverBackground",
+        "borderColor": "bgHi",
         "height": 24
       },
       "HeaderTab": {
