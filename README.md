@@ -15,15 +15,20 @@ repo name must be unique so the new one is `tokyodark-jetbrains`.
 
 ## Available Themes
 
+Tokyo Night Dark
 ![Tokyo Night Dark](./static/tokyonight_dark.png)
+
+Tokyo Night Storm
 ![Tokyo Night Storage](./static/tokyonight_storm.png)
+
+Tokyo Dark Contrast
 ![Tokyo Dark Contrast](./static/tokyodark_contrast.png)
 
 ## Differences between this one and the theme by Grafikart
 
 - Main difference is just this theme includes the UI theme too,
   without relying on the user to install Material UI theme.
-- Tokyo-Night Dark snd Storm support only, no Day support.
+- Tokyo night dark variants support only, no day support.
 - Otherwise everything is (about) the same.
 - Go checkout his theme as well if you think that this one doesn't fit you: [Grafikart/tokyo-night-jetbrains-theme](https://github.com/Grafikart/tokyo-night-jetbrains-theme)
 
