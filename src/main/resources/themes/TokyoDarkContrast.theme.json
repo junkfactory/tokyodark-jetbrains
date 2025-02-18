@@ -183,15 +183,15 @@
       "pressedForeground": "magenta"
     },
     "Menu": {
-      "selectionBackground": "bgHi",
+      "selectionBackground": "hoverBackground",
       "background": "bg"
     },
     "MenuItem": {
-      "selectionBackground": "bgHi",
+      "selectionBackground": "hoverBackground",
       "background": "bg"
     },
     "List": {
-      "hoverBackground": "hoverBackground",
+      "hoverBackground": "selectionBackground",
       "background": "bgHi",
       "rowHeight": 24,
       "Button": {
@@ -227,28 +227,36 @@
         "informativeBorderColor": "magenta"
       }
     },
+    "NotificationsToolwindow": {
+      "newNotification": {
+        "hoverBackground": "bgHi",
+        "background": "bgHi"
+      },
+      "Notification": {
+        "hoverBackground": "bgHi"
+      }
+    },
     "PasswordField": {
       "background": "hoverBackground"
     },
     "Plugins": {
       "SearchField": {
-        "background": "bgHi"
+        "background": "bg"
       },
       "SectionHeader": {
-        "foreground": "fg",
-        "background": "bgHi"
+        "foreground": "fg"
       },
       "hoverBackground": "hoverBackground",
-      "lightSelectionBackground": "hoverBackground",
+      "lightSelectionBackground": "selectionBackground",
       "Button": {
-        "installBorderColor": "magenta",
-        "installForeground": "magenta",
-        "installBackground": "bgHi",
-        "installFillForeground": "bgHi",
-        "installFillBackground": "magenta",
-        "installFocusedBackground": "bgHi",
+        "installBorderColor": "blue",
+        "installForeground": "blue",
+        "installBackground": "bg",
+        "installFillForeground": "bg",
+        "installFillBackground": "blue",
+        "installFocusedBackground": "bg",
         "updateBorderColor": "blue",
-        "updateForeground": "fg",
+        "updateForeground": "bgHi",
         "updateBackground": "blue"
       },
       "Tab": {
@@ -261,7 +269,7 @@
       "failedEndColor": "red",
       "failedColor": "red1",
       "trackColor": "selectionBackground",
-      "progressColor": "blue",
+      "progressColor": "blue1",
       "indeterminateStartColor": "blue",
       "indeterminateEndColor": "magenta",
       "passedEndColor": "green1",
@@ -289,35 +297,33 @@
       "selectionBackground": "selectionBackground"
     },
     "ScrollBar": {
-      "hoverTrackColor": "hoverBackground",
+      "trackColor": "bg",
+      "hoverTrackColor": "bg",
       "background": "bgHi",
-      "thumbColor": "bg",
       "Mac": {
-        "hoverThumbColor": "hoverBackground",
-        "thumbColor": "bg",
+        "trackColor": "bg",
+        "hoverTrackColor": "bg",
+        "hoverThumbColor": "blue",
         "Transparent": {
-          "thumbColor": "bg"
+          "hoverThumbColor": "blue"
         }
       }
     },
-    "ScrollPane.background": "bgHi",
     "SearchEverywhere": {
       "Header.background": "bg",
       "Advertiser": {
         "background": "bg",
         "foreground": "fg"
       },
-      "SearchField": {
-        "background": "hoverBackground"
-      },
+      "SearchField.background": "bgHi",
       "Tab": {
         "selectedBackground": "bg",
         "selectedForeground": "fg"
       }
     },
     "SearchMatch": {
-      "startBackground": "blue7",
-      "endBackground": "blue7"
+      "startBackground": "orange",
+      "endBackground": "orange"
     },
     "Separator": {
       "separatorColor": "separatorColor"
@@ -332,72 +338,54 @@
       "borderColor": "bg"
     },
     "TabbedPane": {
-      "background": "bgHi",
-      "tabHeight": 40,
-      "tabSelectionArc": 4,
       "tabSelectionHeight": 1,
+      "focusColor": "hoverBackground",
       "hoverColor": "hoverBackground",
       "underlineColor": "blue",
-      "contentAreaColor": "bgHi"
+      "contentAreaColor": "hoverBackground"
     },
     "Table": {
       "gridColor": "hoverBackground",
       "hoverBackground": "hoverBackground",
       "background": "bgHi",
-      "selectionBackground": "selectionBackground"
+      "selectionBackground": "selectionBackground",
+      "lightSelectionBackground": "bgHi"
     },
     "TableHeader": {
-      "bottomSeparatorColor": "fgGutter"
+      "bottomSeparatorColor": "separatorColor"
+    },
+    "TextField": {
+      "background": "bgHi"
     },
     "TextArea": {
       "background": "bgHi"
     },
-    "TextField": {
-      "background": "bgHi",
-      "minimumSize": "49,28",
-      "selectionBackground": "selectionBackground"
-    },
-    "TitlePane": {
-      "background": "bgHi",
-      "Button": {
-        "preferredSize": "40,40",
-        "preferredSize.compact": "40,30"
-      }
-    },
     "ToggleButton": {
       "onBackground": "green",
       "onForeground": "hoverBackground",
-      "offBackground": "hoverBackground",
+      "offBackground": "selectionBackground",
       "offForeground": "hoverBackground",
-      "buttonColor": "fg"
-    },
-    "ToolBar": {
-      "background": "bgHi",
-      "borderHandleColor": "magenta"
+      "buttonColor": "purple"
     },
     "ToolWindow": {
-      "background": "bg",
       "Button": {
         "hoverBackground": "hoverBackground",
-        "selectedBackground": "bgHi"
+        "selectedBackground": "hoverBackground"
       },
       "Header": {
         "inactiveBackground": "bgHi"
       },
       "HeaderTab": {
-        "underlineColor": "magenta2",
-        "inactiveUnderlineColor": "fgDark",
+        "underlineColor": "blue",
         "underlineHeight": 1,
-        "hoverBackground": "hoverBackground"
+        "underlinedTabBackground": "bg"
       }
     },
     "Tree": {
-      "modifiedItemForeground": "orange",
-      "hoverBackground": "hoverBackground",
-      "hoverInactiveBackground": "hoverBackground",
+      "rowHeight": 24,
+      "modifiedItemForeground": "blue1",
       "selectionBackground": "selectionInactiveBackground",
-      "selectionInactiveBackground": "selectionInactiveBackground",
-      "rowHeight": 24
+      "selectionInactiveBackground": "selectionInactiveBackground"
     },
     "ValidationTooltip": {
       "errorBackground": "bgHi",
@@ -439,15 +427,16 @@
       "SidePanel": {
         "background": "bgHi"
       },
-      "separatorColor": "fgGutter",
+      "separatorColor": "separatorColor",
       "Projects": {
-        "background": "bgHi",
-        "selectionBackground": "hoverBackground",
-        "selectionInactiveBackground": "hoverBackground",
+        "background": "bg",
+        "selectionBackground": "selectionBackground",
+        "selectionInactiveBackground": "selectionBackground",
         "actions": {
-          "background": "hoverBackground"
+          "background": "bg"
         }
-      }
+      },
+      "Details.background": "bg"
     },
     "Window.undecorated.border": "1,1,1,1"
   },
