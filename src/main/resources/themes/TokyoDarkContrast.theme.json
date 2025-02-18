@@ -36,7 +36,7 @@
     "hoverBackground": "#232433",
     "selectionInactiveBackground": "#59689d",
     "separatorColor": "#36374F",
-    "selectionBackground": "#304285",
+    "selectionBackground": "#455591",
     "shadowColor": "#161823"
   },
   "ui": {
@@ -73,8 +73,8 @@
     "ActionButton": {
       "hoverBackground": "hoverBackground",
       "hoverBorderColor": "hoverBackground",
-      "pressedBackground": "selectionInactiveBackground",
-      "pressedBorderColor": "selectionInactiveBackground"
+      "pressedBackground": "hoverBackground",
+      "pressedBorderColor": "hoverBackground"
     },
     "Bookmark": {
       "iconBackground": "blue",
@@ -86,34 +86,35 @@
       "foreground": "fg",
       "startBorderColor": "bgHi",
       "endBorderColor": "bgHi",
-      "shadowColor": "hoverBackground",
-      "shadowWidth": 0,
       "startBackground": "hoverBackground",
       "endBackground": "hoverBackground",
-      "focusedBorderColor": "blue0",
+      "focusedBorderColor": "blue",
       "disabledBorderColor": "bgHi",
       "default": {
-        "foreground": "bg",
-        "startBackground": "blue",
-        "endBackground": "blue",
-        "startBorderColor": "blue0",
-        "endBorderColor": "blue0",
-        "focusColor": "fg",
-        "focusedBorderColor": "fg"
+        "foreground": "bgHi",
+        "startBackground": "purple",
+        "endBackground": "purple",
+        "startBorderColor": "purple",
+        "endBorderColor": "purple",
+        "focusColor": "blue",
+        "focusedBorderColor": "blue"
       }
+    },
+    "Counter": {
+      "foreground": "bg",
+      "background": "green"
     },
     "CheckBox": {
       "iconSize": 24,
       "textIconGap": 4
     },
-    "Counter": {
-      "foreground": "bgHi",
-      "background": "blue0"
+    "CheckBoxMenuItem": {
+      "acceleratorSelectionForeground": "blue1"
     },
     "ComboBox": {
       "ArrowButton": {
-        "background": "hoverBackground",
-        "nonEditableBackground": "hoverBackground",
+        "background": "bgHi",
+        "nonEditableBackground": "bgHi",
         "disabledIconColor": "comment",
         "iconColor": "blue"
       },
@@ -123,14 +124,15 @@
     "ComboPopup.border": "1,1,1,1",
     "CompletionPopup": {
       "Advertiser": {
-        "background": "bg",
-        "borderInsets.compact": "2,12,2,8"
+        "foreground": "dark5",
+        "background": "bg"
       },
       "foreground": "fg",
       "selectionBackground": "selectionBackground",
       "selectionInactiveBackground": "selectionBackground",
       "matchForeground": "orange",
-      "selectionInnerInsets.compact": "0,2,0,2"
+      "selectionInnerInsets.compact": "0,2,0,2",
+      "BodyWithAdvertiser.insets": "4,2,0,2"
     },
     "Component": {
       "arrowAreaWidth": "28",
@@ -144,24 +146,24 @@
       "inactiveWarningFocusColor": "yellow"
     },
     "DragAndDrop": {
-      "borderColor": "blue0"
-    },
-    "DefaultTabs": {
-      "background": "bgHi",
-      "borderColor": "bg",
-      "hoverBackground": "hoverBackground",
-      "inactiveUnderlineColor": "comment",
-      "underlineColor": "fg",
-      "underlinedTabBackground": "bg"
-    },
-    "EditorTabs": {
-      "underlineHeight.compact": 1,
-      "underlinedTabBackground": "bg",
-      "background": "bgHi"
+      "borderColor": "selectionBackground"
     },
     "Editor": {
       "background": "bgHi",
-      "shortcutForeground": "orange"
+      "shortcutForeground": "blue2"
+    },
+    "DefaultTabs": {
+      "hoverBackground": "fgGutter",
+      "background": "bgHi",
+      "borderColor": "bg",
+      "underlineColor": "orange",
+      "underlinedTabBackground": "bg"
+    },
+    "EditorTabs": {
+      "background": "bgHi",
+      "underlinedTabBackground": "bg",
+      "underlineColor": "orange",
+      "underlineHeight.compact": 1
     },
     "FileColor": {
       "Blue": "#7AA2F71a",
@@ -172,7 +174,7 @@
       "Violet": "#bb9af705"
     },
     "HelpTooltip": {
-      "borderColor": "hoverBackground"
+      "borderColor": "red1"
     },
     "Link": {
       "activeForeground": "blue",
@@ -390,7 +392,6 @@
       }
     },
     "Tree": {
-      "background": "bg",
       "modifiedItemForeground": "orange",
       "hoverBackground": "hoverBackground",
       "hoverInactiveBackground": "hoverBackground",
