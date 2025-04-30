@@ -58,6 +58,10 @@
       "borderColor": "bgHi",
       "separatorColor": "separatorColor"
     },
+    "MemoryIndicator": {
+      "usedBackground": "#455591",
+      "allocatedBackground": "#59689d"
+    },
     "Borders": {
       "color": "bgHi",
       "ContrastBorderColor": "hoverBackground"
