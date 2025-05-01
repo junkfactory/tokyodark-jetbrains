@@ -43,7 +43,7 @@
       "acceleratorForeground": "blue",
       "acceleratorSelectionForeground": "blue",
       "arc": 7,
-      "background": "bgHi",
+      "background": "bg",
       "foreground": "fgDark",
       "caretForeground": "fgDark",
       "infoForeground": "fgDark",
@@ -55,7 +55,7 @@
       "disabledBackground": "bgHi",
       "disabledBorderColor": "bgHi",
       "disabledForeground": "dark5",
-      "borderColor": "bgHi",
+      "borderColor": "bg",
       "separatorColor": "separatorColor"
     },
     "MemoryIndicator": {
