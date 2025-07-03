@@ -349,10 +349,9 @@
         "borderColor": "hoverBackground"
       },
       "HeaderTab": {
-        "underlineColor": "magenta2",
-        "inactiveUnderlineColor": "fgDark",
+        "underlineColor": "blue",
+        "inactiveUnderlineColor": "comment",
         "underlineHeight": 1,
-        "underlinedTabBackground": "dark3",
         "selectedInactiveBackground": "dark5",
         "hoverBackground": "hoverBackground"
       }
