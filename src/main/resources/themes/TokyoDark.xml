@@ -59,11 +59,11 @@
         <option name="SEPARATOR_BELOW_COLOR" value="2c2e40"/>
         <option name="SOFT_WRAP_SIGN_COLOR" value="2c2e40"/>
         <option name="TEARLINE_COLOR" value="2c2e40"/>
-        <option name="VCS_ANNOTATIONS_COLOR_1" value="232433"/>
-        <option name="VCS_ANNOTATIONS_COLOR_2" value="232433"/>
-        <option name="VCS_ANNOTATIONS_COLOR_3" value="232433"/>
-        <option name="VCS_ANNOTATIONS_COLOR_4" value="232433"/>
-        <option name="VCS_ANNOTATIONS_COLOR_5" value="232433"/>
+        <option name="VCS_ANNOTATIONS_COLOR_1" value="3d59a1"/>
+        <option name="VCS_ANNOTATIONS_COLOR_2" value="343b63"/>
+        <option name="VCS_ANNOTATIONS_COLOR_3" value="2f3352"/>
+        <option name="VCS_ANNOTATIONS_COLOR_4" value="2a2f48"/>
+        <option name="VCS_ANNOTATIONS_COLOR_5" value="1f2335"/>
         <option name="VISUAL_INDENT_GUIDE" value="2c2e40"/>
         <option name="WHITESPACES" value="2c2e40"/>
         <option name="WHITESPACES_MODIFIED_LINES_COLOR" value="e0af68"/>
