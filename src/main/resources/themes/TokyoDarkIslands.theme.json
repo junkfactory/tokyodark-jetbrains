@@ -1,0 +1,54 @@
+{
+  "name": "Tokyo Dark Islands",
+  "dark": true,
+  "author": "Theme Bot",
+  "editorScheme": "/colorSchemes/TokyoDarkIslands.xml",
+  "parentTheme": "Islands Dark",
+  "ui": {
+    "*": {
+      "foreground": "#a9b1d6",
+      "background": "#1a1b26"
+    },
+
+    "Editor.background": "#1a1b26",
+    "Editor.foreground": "#a9b1d6",
+    "Editor.caretColor": "#c0caf5",
+    "Editor.lineHighlight": "#232433",
+    "Editor.selectionBackground": "#414868",
+    "Editor.gutterBackground": "#1a1b26",
+    "Editor.lineNumber": "#696d98",
+
+    "ToolWindow.background": "#2c2e40",
+    "ToolWindow.Header.background": "#2c2e40",
+
+    "EditorTabs.background": "#1a1b26",
+    "EditorTabs.underlinedTabBackground": "#2c2e40",
+    "EditorTabs.underlinedBorderColor": "#e0af68",
+    "EditorTabs.inactiveUnderlinedTabBackground": "#1a1b26",
+
+    "Island.borderColor": "#2c2e40",
+    "Island.arc": 20,
+    "Island.borderWidth": 5,
+
+    "Button.background": "#2c2e40",
+    "Button.foreground": "#a9b1d6",
+
+    "List.background": "#2c2e40",
+    "List.selectionBackground": "#414868",
+
+    "StatusBar.background": "#2c2e40",
+    "StatusBar.borderColor": "#00000000",
+
+    "Separator.background": "#2c2e40",
+
+    "Focus.borderColor": "#e0af68",
+
+    "Actions.Blue": "#7aa2f7",
+    "Actions.Green": "#73daca",
+    "Actions.Red": "#f7768e",
+
+    "Notification.background": "#2c2e40",
+
+    "SearchEverywhere.background": "#1f2335"
+  }
+}
