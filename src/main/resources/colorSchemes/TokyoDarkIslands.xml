@@ -1,4 +1,4 @@
-<scheme name="Tokyo Dark Islands" version="142">
+<scheme name="Tokyo Dark Islands" version="142" parent_schame="Islands Dark">
     <colors>
         <option name="ADDED_LINES_COLOR" value="#73daca"/>
         <option name="ANNOTATIONS_COLOR" value="#c0caf5"/>
