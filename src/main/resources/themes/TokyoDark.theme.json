@@ -3,6 +3,7 @@
   "dark": true,
   "author": "Junk F. Actory <2998269+junkfactory@users.noreply.github.com>",
   "editorScheme": "/themes/TokyoDark.xml",
+  "parentTheme": "Darcula",
   "colors": {
     "bgHi": "#161720",
     "bg": "#1a1b26",

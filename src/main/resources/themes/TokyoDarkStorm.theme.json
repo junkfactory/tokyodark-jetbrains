@@ -3,6 +3,7 @@
   "dark": true,
   "author": "Junk F. Actory <2998269+junkfactory@users.noreply.github.com>",
   "editorScheme": "/themes/TokyoDarkStorm.xml",
+  "parentTheme": "Darcula",
   "colors": {
     "bgHi": "#202435",
     "bg": "#24283b",
@@ -32,10 +33,10 @@
     "teal": "#1abc9c",
     "red": "#f7768e",
     "red1": "#db4b4b",
-    "hoverBackground": "#232433",
+    "hoverBackground": "#292e42",
     "selectionInactiveBackground": "#414868",
     "separatorColor": "#36374F",
-    "selectionBackground": "#304285",
+    "selectionBackground": "#2d3f59",
     "shadowColor": "#161823"
   },
   "ui": {
