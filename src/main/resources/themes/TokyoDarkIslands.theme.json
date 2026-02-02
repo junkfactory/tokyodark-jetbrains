@@ -1,19 +1,18 @@
 {
-  "name": "Tokyo Dark Islands",
+  "name": "TokyoDark Islands",
   "dark": true,
   "author": "Junk F. Actory <2998269+junkfactory@users.noreply.github.com>",
-  "editorScheme": "/colorSchemes/TokyoDarkIslands.xml",
+  "editorScheme": "/themes/TokyoDarkIslands.xml",
   "parentTheme": "Islands Dark",
-  "Islands": 1,
   "colors": {
     "bgHi": "#161720",
     "bg": "#1a1b26",
+    "bg_highlight": "#292e42",
     "terminalBlack": "#414868",
     "fg": "#c0caf5",
     "fgDark": "#a9b1d6",
     "fgGutter": "#3b4261",
     "dark3": "#545c7e",
-    "comment": "#565f89",
     "dark5": "#737aa2",
     "blue0": "#3d59a1",
     "blue": "#7aa2f7",
@@ -37,14 +36,24 @@
     "hoverBackground": "#232433",
     "selectionInactiveBackground": "#414868",
     "separatorColor": "#36374F",
-    "selectionBackground": "#304285",
-    "shadowColor": "#161823"
+    "selectionBackground": "#292e42",
+    "shadowColor": "#161823",
+    "hoverBackgroundEnhanced": "#33415a",
+    "focusAccent": "#41516f"
   },
   "ui": {
-    "Island.borderColor": "separatorColor",
-    "Island.arc": 20,
-    "Island.borderWidth": 5,
-    "Island.inactiveAlpha": 0.44,
+    "Islands": 1,
+    "Island": {
+      "borderColor": "separatorColor",
+      "arc": 20,
+      "arc.compact": 16,
+      "borderArcLength": 14,
+      "borderArcLength.compact": 10,
+      "borderWidth": 6,
+      "borderWidth.compact": 4,
+      "inactiveAlpha": 0.56,
+      "toolWindowAlpha": 0.2
+    },
     "*": {
       "background": "bg",
       "foreground": "fgDark",
@@ -62,15 +71,29 @@
       "disabledForeground": "dark5",
       "borderColor": "bgHi",
       "separatorColor": "separatorColor",
-      "focusColor": "blue0",
-      "focusedBorderColor": "blue0",
+      "focusColor": "focusAccent",
+      "focusedBorderColor": "focusAccent",
       "errorFocusColor": "red1",
       "inactiveErrorFocusColor": "red1",
       "warningFocusColor": "yellow",
       "inactiveWarningFocusColor": "yellow",
       "arc": 7
     },
-    "MainWindow.background": "#21222e",
+    "MemoryIndicator": {
+      "usedBackground": "blue7",
+      "allocatedBackground": "#455591"
+    },
+    "ProgressBar": {
+      "failedEndColor": "red",
+      "failedColor": "red1", 
+      "trackColor": "selectionBackground",
+      "progressColor": "blue",
+      "indeterminateStartColor": "blue",
+      "indeterminateEndColor": "magenta",
+      "passedEndColor": "green1",
+      "passedColor": "green"
+    },
+    "MainWindow.background": "hoverBackground",
     "Editor": {
       "background": "bgHi",
       "foreground": "fgDark",
@@ -82,10 +105,10 @@
       "shortcutForeground": "blue"
     },
     "ToolWindow": {
-      "background": "#2c2e40",
+      "background": "hoverBackgroundEnhanced",
       "Header": {
-        "background": "#2c2e40",
-        "inactiveBackground": "#1f2335",
+        "background": "hoverBackgroundEnhanced",
+        "inactiveBackground": "bgHi",
         "borderColor": "#00000000"
       },
       "HeaderTab": {
@@ -95,27 +118,27 @@
         "hoverBackground": "hoverBackground"
       },
       "Button": {
-        "hoverBackground": "#364a59"
+      "hoverBackground": "hoverBackgroundEnhanced"
       }
     },
     "EditorTabs": {
       "background": "bg",
-      "underlinedTabBackground": "#2c2e40",
-      "underlinedBorderColor": "yellow",
+      "underlinedTabBackground": "selectionBackground",
       "inactiveUnderlinedTabBackground": "bg",
+      "hoverBackground": "hoverBackgroundEnhanced",
       "underlineHeight.compact": 1
     },
     "Button": {
       "foreground": "fgDark",
-      "startBackground": "#2c2e40",
-      "endBackground": "#2c2e40",
-      "startBorderColor": "#2c2e40",
-      "endBorderColor": "#2c2e40",
-      "focusedBorderColor": "blue0",
+      "startBackground": "hoverBackgroundEnhanced",
+      "endBackground": "hoverBackgroundEnhanced",
+      "startBorderColor": "hoverBackgroundEnhanced",
+      "endBorderColor": "hoverBackgroundEnhanced",
+      "focusedBorderColor": "focusAccent",
       "disabledBorderColor": "bgHi",
       "arc": 8,
-      "hoverBackground": "#364a59",
-      "pressedBackground": "#405164",
+      "hoverBackground": "hoverBackgroundEnhanced",
+      "pressedBackground": "selectionBackground",
       "default": {
         "foreground": "bgHi",
         "startBackground": "blue",
@@ -123,26 +146,27 @@
         "startBorderColor": "blue0",
         "endBorderColor": "blue0",
         "focusColor": "fg",
-        "focusedBorderColor": "bgHi"
+        "focusedBorderColor": "focusAccent"
       }
     },
     "ComboBox": {
       "ArrowButton": {
-        "background": "#2c2e40",
-        "nonEditableBackground": "#2c2e40",
+        "background": "selectionBackground",
+        "nonEditableBackground": "selectionBackground",
         "disabledIconColor": "comment",
         "iconColor": "blue"
       },
       "selectionBackground": "selectionBackground",
-      "nonEditableBackground": "#2c2e40"
+      "nonEditableBackground": "selectionBackground"
     },
     "List": {
-      "background": "#2c2e40",
+      "background": "hoverBackgroundEnhanced",
       "selectionBackground": "selectionBackground",
+      "hoverBackground": "hoverBackgroundEnhanced",
       "rowHeight": 24
     },
     "Tree": {
-      "background": "#2c2e40",
+      "background": "hoverBackgroundEnhanced",
       "modifiedItemForeground": "blue",
       "hoverBackground": "hoverBackground",
       "selectionBackground": "selectionBackground",
@@ -150,15 +174,20 @@
       "rowHeight": 24
     },
     "StatusBar": {
-      "background": "#2c2e40",
+      "background": "bg_highlight",
       "borderColor": "#00000000"
+    },
+    "alt": {
+      "MainWindow.background": "bg",
+      "StatusBar.background": "bg_highlight",
+      "StatusBar.borderColor": "#00000000"
     },
     "Popup": {
       "background": "bg",
       "borderColor": "separatorColor",
       "Header": {
-        "activeBackground": "#2c2e40",
-        "inactiveBackground": "#2c2e40"
+        "activeBackground": "selectionBackground",
+        "inactiveBackground": "hoverBackgroundEnhanced"
       }
     },
     "CompletionPopup": {
@@ -169,30 +198,30 @@
       "matchForeground": "orange"
     },
     "SearchEverywhere": {
-      "background": "#1f2335",
+      "background": "bg",
       "SearchField": {
-        "background": "#2c2e40"
+        "background": "selectionBackground"
       },
       "Tab": {
-        "selectedBackground": "#2c2e40",
+        "selectedBackground": "selectionBackground",
         "selectedForeground": "fg"
       }
     },
     "Notification": {
-      "background": "#2c2e40"
+      "background": "hoverBackgroundEnhanced"
     },
     "VersionControl": {
       "GitLog": {
-        "headIconColor": "yellow",
-        "localBranchIconColor": "green",
-        "remoteBranchIconColor": "magenta",
-        "tagIconColor": "blue",
-        "otherIconColor": "green"
+        "headIconColor": "#F5D273",
+        "localBranchIconColor": "#5FAD65",
+        "remoteBranchIconColor": "#B589EC",
+        "tagIconColor": "#868A91",
+        "otherIconColor": "#868A91"
       }
     },
     "Borders": {
       "color": "bgHi",
-      "ContrastBorderColor": "hoverBackground"
+      "ContrastBorderColor": "focusAccent"
     },
     "Separator": {
       "separatorColor": "separatorColor"

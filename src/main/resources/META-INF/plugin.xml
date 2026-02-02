@@ -4,11 +4,24 @@
     <name>Tokyo Dark Theme</name>
     <vendor email="2998269+junkfactory@users.noreply.github.com" url="https://github.com/junkfactory/tokyodark-jetbrains">Junk F. Actory</vendor>
     <depends>com.intellij.modules.platform</depends>
-    <idea-version since-build="253.3177.56"/>
     <extensions defaultExtensionNs="com.intellij">
+        <!-- Traditional themes - available on all versions -->
         <themeProvider id="com.junkfactory.tokyodark" path="/themes/TokyoDark.theme.json"/>
         <themeProvider id="com.junkfactory.tokyodark-storm" path="/themes/TokyoDarkStorm.theme.json"/>
         <themeProvider id="com.junkfactory.tokyodark-contrast" path="/themes/TokyoDarkContrast.theme.json"/>
+        
+        <!-- Islands theme - requires 2025.3+, but registered for all versions -->
+        <!-- The theme file has conditional logic for graceful handling -->
         <themeProvider id="com.junkfactory.tokyodark-islands" path="/themes/TokyoDarkIslands.theme.json"/>
+
+        <!-- Startup activity to check theme compatibility and log availability -->
+        <postStartupActivity implementation="com.junkfactory.tokyodark.ConditionalThemeProvider"/>
+
+        <!-- Settings page for theme information and compatibility -->
+        <applicationConfigurable
+            parentId="appearance"
+            id="com.junkfactory.tokyodark.settings"
+            displayName="Tokyo Dark Theme"
+            instance="com.junkfactory.tokyodark.TokyoDarkSettingsConfigurable"/>
     </extensions>
 </idea-plugin>
