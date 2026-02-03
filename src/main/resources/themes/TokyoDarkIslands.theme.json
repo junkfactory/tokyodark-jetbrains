@@ -179,8 +179,17 @@
     },
     "alt": {
       "MainWindow.background": "bg",
-      "StatusBar.background": "bg_highlight",
-      "StatusBar.borderColor": "#00000000"
+      "MainToolbar.background": "bg", 
+      "ToolWindow.Stripe.background": "bg",
+      "StatusBar.background": "bg",
+
+      "ToolWindow.Header.inactiveBackground": "bgHi",
+      "ToolWindow.background": "bgHi", 
+      "Island.borderColor": "bgHi",
+
+      "Borders.color": "separatorColor",
+      "Borders.ContrastBorderColor": "separatorColor",
+      "ToolWindow.Header.borderColor": "separatorColor"
     },
     "Popup": {
       "background": "bg",
