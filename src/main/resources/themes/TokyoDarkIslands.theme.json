@@ -412,7 +412,7 @@
     },
     "MainMenu": {
       "selectionForeground": "fgDark",
-      "selectionBackground": "bg-control-transparent",
+      "selectionBackground": "hoverBackgroundEnhanced",
       "transparentSelectionBackground": "bg-control-transparent"
     },
     "Tree": {
@@ -475,7 +475,7 @@
       "separatorColor": "separatorColor",
       "borderColor": "separatorColor"
     },
-    "MenuItem.background": "bg",
+    "MenuItem.background": "hoverBackgroundEnhanced",
     "NewClass": {
       "Panel.background": "bg",
       "SearchField.background": "bg"
@@ -626,7 +626,7 @@
       "borderColor": "separatorColor",
       "inactiveBorderColor": "separatorColor",
       "Header": {
-        "activeBackground": "bg",
+        "activeBackground": "hoverBackgroundEnhanced",
         "inactiveBackground": "bg",
         "inactiveForeground": "dark5"
       },
@@ -659,7 +659,7 @@
         "background": "selectionBackground"
       },
       "Tab": {
-        "selectedBackground": "selectionBackground",
+        "selectedBackground": "hoverBackgroundEnhanced",
         "selectedForeground": "fg"
       },
       "Advertiser": {
