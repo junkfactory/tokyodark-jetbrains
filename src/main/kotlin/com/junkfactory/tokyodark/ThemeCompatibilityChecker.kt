@@ -161,7 +161,7 @@ object ThemeCompatibilityChecker {
                         id == "com.junkfactory.tokyodark" -> "TokyoDark"
                         id == "com.junkfactory.tokyodark-storm" -> "TokyoDark Storm"
                         id == "com.junkfactory.tokyodark-contrast" -> "TokyoDark Contrast"
-                        id == "com.junkfactory.tokyodark-islands" -> "Tokyo Dark Islands"
+                        id == "com.junkfactory.tokyodark-islands" -> "TokyoDark Islands"
                         else -> {
                             // Fallback: extract from ID after last dot and replace dashes with spaces
                             id.substringAfterLast(".", id ?: "Unknown")
@@ -215,7 +215,7 @@ object ThemeCompatibilityChecker {
      * - TokyoDark (com.junkfactory.tokyodark)
      * - TokyoDark Storm (com.junkfactory.tokyodark-storm) 
      * - TokyoDark Contrast (com.junkfactory.tokyodark-contrast)
-     * - Tokyo Dark Islands (com.junkfactory.tokyodark-islands)
+     * - TokyoDark Islands (com.junkfactory.tokyodark-islands)
      */
     private fun getHardcodedThemes(): List<ThemeConfig> {
         return listOf(
@@ -244,7 +244,7 @@ object ThemeCompatibilityChecker {
             // Islands theme - only available on 2025.3+
             ThemeConfig(
                 id = "com.junkfactory.tokyodark-islands",
-                name = "Tokyo Dark Islands",
+                name = "TokyoDark Islands",
                 path = "/themes/TokyoDarkIslands.theme.json",
                 variant = ThemeVariant.ISLANDS,
                 isDark = true

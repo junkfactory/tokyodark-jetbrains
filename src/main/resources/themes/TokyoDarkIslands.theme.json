@@ -170,7 +170,7 @@
     },
     "MainWindow.background": "bg",
     "ToolWindow": {
-      "background": "hoverBackgroundEnhanced",
+      "background": "hoverBackground",
       "borderColor": "transparent",
       "Header": {
         "background": "hoverBackgroundEnhanced",
@@ -337,7 +337,7 @@
         "exceptionForeground": "accent-error-text",
         "typeForeground": "#737aa2"
       },
-      "EvaluateExpression.background": "hoverBackgroundEnhanced"
+      "EvaluateExpression.background": "hoverBackground"
     },
     "FileColor": {
       "Yellow": "#e0af6805",
@@ -386,7 +386,7 @@
       "transparentSelectionBackground": "bg-control-transparent"
     },
     "Tree": {
-      "background": "hoverBackgroundEnhanced",
+      "background": "hoverBackground",
       "modifiedItemForeground": "blue",
       "hoverBackground": "hoverBackgroundEnhanced",
       "hoverInactiveBackground": "bg-selection-hover",
@@ -507,12 +507,12 @@
     },
     "alt": {
       "MainWindow.background": "bg",
-      "MainToolbar.background": "bg", 
+      "MainToolbar.background": "bg",
       "ToolWindow.Stripe.background": "bg",
       "StatusBar.background": "bg",
 
       "ToolWindow.Header.inactiveBackground": "bgHi",
-      "ToolWindow.background": "bgHi", 
+      "ToolWindow.background": "bgHi",
       "Island.borderColor": "bgHi",
 
       "Borders.color": "separatorColor",
@@ -549,14 +549,14 @@
         "Background": "hoverBackgroundEnhanced",
         "Foreground": "#737aa2"
       },
-        "ChatItem": {
-          "Hover": "#41486833"
-        }
+      "ChatItem": {
+        "Hover": "#41486833"
+      }
     },
     "ComplexPopup.Header.background": "bg",
     "ProgressBar": {
       "failedEndColor": "red",
-      "failedColor": "red1", 
+      "failedColor": "red1",
       "trackColor": "selectionBackground",
       "progressColor": "blue",
       "indeterminateStartColor": "blue",

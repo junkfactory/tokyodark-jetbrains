@@ -14,6 +14,9 @@
         <!-- The theme file has conditional logic for graceful handling -->
         <themeProvider id="com.junkfactory.tokyodark-islands" path="/themes/TokyoDarkIslands.theme.json"/>
 
+        <!-- Preloading activity to conditionally unregister Islands theme if not supported -->
+        <preloadingActivity implementation="com.junkfactory.tokyodark.ThemeProviderPruner"/>
+
         <!-- Startup activity to check theme compatibility and log availability -->
         <postStartupActivity implementation="com.junkfactory.tokyodark.ConditionalThemeProvider"/>
 

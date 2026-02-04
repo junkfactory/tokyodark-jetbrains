@@ -246,7 +246,7 @@ class TokyoDarkSettingsConfigurable : Configurable {
             Triple("TokyoDark", "The main theme", "Classic Tokyo Night color palette with balanced contrast"),
             Triple("TokyoDark Storm", "Enhanced variant", "Darker backgrounds for reduced eye strain"),
             Triple("TokyoDark Contrast", "Accessibility", "Higher contrast for improved readability"),
-            Triple("Tokyo Dark Islands", "Modern UI", "Islands theme for IntelliJ 2025.3+ with rounded corners")
+            Triple("TokyoDark Islands", "Modern UI", "Islands theme for IntelliJ 2025.3+ with rounded corners")
         )
         
         descriptions.forEach { (name, type, desc) ->

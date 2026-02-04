@@ -81,7 +81,7 @@ class ConditionalThemeProvider : ProjectActivity, DynamicPluginListener, Disposa
             }
             
             if (!islandsSupported) {
-                LOG.info("Note: Tokyo Dark Islands theme is not available on this IntelliJ version.")
+                LOG.info("Note: TokyoDark Islands theme is not available on this IntelliJ version.")
                 LOG.info("      Upgrade to IntelliJ 2025.3 or later to use the Islands theme.")
             }
             
