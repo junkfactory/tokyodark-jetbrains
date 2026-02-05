@@ -5,26 +5,15 @@
     <vendor email="2998269+junkfactory@users.noreply.github.com" url="https://github.com/junkfactory/tokyodark-jetbrains">Junk F. Actory</vendor>
     <depends>com.intellij.modules.platform</depends>
     <extensions defaultExtensionNs="com.intellij">
-        <!-- Traditional themes - available on all versions -->
+        <!-- All themes - Islands theme now statically registered -->
         <themeProvider id="com.junkfactory.tokyodark" path="/themes/TokyoDark.theme.json"/>
         <themeProvider id="com.junkfactory.tokyodark-storm" path="/themes/TokyoDarkStorm.theme.json"/>
         <themeProvider id="com.junkfactory.tokyodark-contrast" path="/themes/TokyoDarkContrast.theme.json"/>
-        
-        <!-- Islands theme - requires 2025.3+, but registered for all versions -->
-        <!-- The theme file has conditional logic for graceful handling -->
+        <!-- Islands theme - statically registered (may have rendering issues on < 2025.3) -->
         <themeProvider id="com.junkfactory.tokyodark-islands" path="/themes/TokyoDarkIslands.theme.json"/>
-
-        <!-- Preloading activity to conditionally unregister Islands theme if not supported -->
-        <preloadingActivity implementation="com.junkfactory.tokyodark.ThemeProviderPruner"/>
-
-        <!-- Startup activity to check theme compatibility and log availability -->
-        <postStartupActivity implementation="com.junkfactory.tokyodark.ConditionalThemeProvider"/>
-
-        <!-- Settings page for theme information and compatibility -->
-        <applicationConfigurable
-            parentId="appearance"
-            id="com.junkfactory.tokyodark.settings"
-            displayName="Tokyo Dark Theme"
-            instance="com.junkfactory.tokyodark.TokyoDarkSettingsConfigurable"/>
+        <!-- Notification group for theme-related notifications -->
+        <notificationGroup id="TokyoDark Theme" displayType="BALLOON"/>
+        <!-- Project activity to initialize theme change listener (runs once per project) -->
+        <postStartupActivity implementation="com.junkfactory.tokyodark.TokyoDarkThemeListenerInitializer"/>
     </extensions>
 </idea-plugin>
