@@ -36,14 +36,14 @@
     "hoverBackground": "#292e42",
     "selectionInactiveBackground": "#505373",
     "separatorColor": "#414868",
-    "selectionBackground": "#292e42",
+    "selectionBackground": "#334061",
     "shadowColor": "#161720",
     "hoverBackgroundEnhanced": "#414868",
     "focusAccent": "#414868",
     "transparent": "#16172000",
     "bg-control-transparent": "#c0caf516",
     "border-transparent": "#c0caf520",
-    "bg-selection-hover": "#c0caf510",
+    "bg-selection-hover": "#343b63",
     "control-bg-raised": "bg_highlight",
     "control-bg-small": "selectionBackground",
     "control-bg-disabled": "bgHi",
@@ -51,7 +51,7 @@
     "control-border-raised": "hoverBackground",
     "control-border-small": "selectionBackground",
     "accent-brand-text": "blue",
-    "accent-brand-bg": "blue",
+    "accent-brand-bg": "#3d59a1",
     "accent-brand-bg-muted": "blue0",
     "accent-brand-border": "blue",
     "accent-error-text": "red",
@@ -119,7 +119,7 @@
       "arc": 7
     },
     "ActionButton": {
-      "hoverBackground": "bg-control-transparent",
+      "hoverBackground": "selectionBackground",
       "hoverBorderColor": "transparent",
       "pressedBackground": "bg-selection-hover",
       "pressedBorderColor": "transparent",
@@ -166,7 +166,7 @@
     },
     "MemoryIndicator": {
       "usedBackground": "blue7",
-      "allocatedBackground": "#394b70"
+      "allocatedBackground": "accent-brand-bg"
     },
     "MainWindow.background": "bg",
     "ToolWindow": {
@@ -189,7 +189,7 @@
         "foreground": "dark5",
         "selectedForeground": "fg",
         "selectedBackground": "accent-brand-bg",
-        "hoverBackground": "hoverBackgroundEnhanced",
+        "hoverBackground": "bg-selection-hover",
         "DragAndDrop": {
           "buttonDropBackground": "#7aa2f780",
           "buttonDropBorderColor": "accent-brand-border",
@@ -264,10 +264,10 @@
       "minimumSize": "72,28",
       "foreground": "fgDark",
       "disabledBorderColor": "separatorColor",
-      "hoverBackground": "hoverBackgroundEnhanced",
+      "hoverBackground": "bg-selection-hover",
       "pressedBackground": "selectionBackground",
       "default": {
-        "foreground": "bgHi",
+        "foreground": "fg",
         "loadingForeground": "dark5",
         "startBackground": "accent-brand-bg",
         "endBackground": "accent-brand-bg",
@@ -382,13 +382,13 @@
     },
     "MainMenu": {
       "selectionForeground": "fgDark",
-      "selectionBackground": "hoverBackgroundEnhanced",
+      "selectionBackground": "bg-selection-hover",
       "transparentSelectionBackground": "bg-control-transparent"
     },
     "Tree": {
       "background": "hoverBackground",
       "modifiedItemForeground": "blue",
-      "hoverBackground": "hoverBackgroundEnhanced",
+      "hoverBackground": "bg-selection-hover",
       "hoverInactiveBackground": "bg-selection-hover",
       "selectionBackground": "selectionBackground",
       "selectionInactiveBackground": "selectionInactiveBackground",
@@ -487,7 +487,7 @@
       "bottomRight1Color": "#00000010"
     },
     "StatusBar": {
-      "background": "bg_highlight",
+      "background": "bg",
       "borderColor": "#00000000",
       "Widget": {
         "foreground": "dark5",
@@ -526,7 +526,7 @@
     "Plugins": {
       "SectionHeader.background": "bg",
       "Button": {
-        "installFillForeground": "fg",
+        "installFillForeground": "bgHi",
         "installFillBackground": "accent-success-bg-bright",
         "installBorderColor": "accent-success-border",
         "installForeground": "accent-success-text",
@@ -976,7 +976,7 @@
       "runIconColor": "green",
       "runningBackground": "accent-success-bg-bright",
       "stopBackground": "accent-error-bg-bright",
-      "runningIconColor": "fg",
+      "runningIconColor": "bg",
       "hoverBackground": "#00000019",
       "pressedBackground": "#00000028"
     },
@@ -984,7 +984,7 @@
       "foreground": "dark5",
       "selectedForeground": "fgDark",
       "selectedBackground": "hoverBackgroundEnhanced",
-      "hoverBackground": "#c0caf512",
+      "hoverBackground": "bg-selection-hover",
       "separatorColor": "border-transparent",
       "background": "#161720"
     },
@@ -1047,7 +1047,7 @@
     "ManagedIdeBadgeBorder": "#414868",
     "ManagedIdeBadgeBackground": "#292e42",
     "ManagedIdeBadgeBackgroundHover": "#414868",
-    "ManagedIdeMenuItemHover": "#414868",
+    "ManagedIdeMenuItemHover": "bg-selection-hover",
     "Recap": {
       "ijnext": "#9d7cd8",
       "cardBackground": "#1a1b26",
