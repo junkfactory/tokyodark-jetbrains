@@ -249,15 +249,15 @@
     },
     "EditorTabs": {
       "background": "bgHi",
-      "hoverBackground": "bg-control-transparent",
+      "hoverBackground": "#1C1D29B3",
       "hoverInactiveBackground": "bg-control-transparent",
       "inactiveColoredFileBackground": "#1a1b2680",
       "underTabsBorderColor": "separatorColor",
-      "underlinedBorderColor": "#36426b",
-      "underlinedTabForeground": "fg",
-      "underlinedTabBackground": "#36426b",
-      "inactiveUnderlinedTabBorderColor": "#36426b",
-      "inactiveUnderlinedTabBackground": "bg",
+      "underlinedTabForeground": "#c0caf5",
+      "underlinedTabBackground": "#3D59A199",
+      "underlinedBorderColor": "#3d59a1",
+      "inactiveUnderlinedTabBorderColor": "#3b4261",
+      "inactiveUnderlinedTabBackground": "#16161e",
       "underlineHeight.compact": 1
     },
     "Button": {

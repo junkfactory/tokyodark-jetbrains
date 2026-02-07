@@ -24,15 +24,15 @@
         <option name="DOCUMENTATION_COLOR" value="16161E"/>
         <option name="DOCUMENTATION_POPUP_COLOR" value="16161E"/>
         <option name="ERROR_HINT" value="545C7E"/>
-        <option name="FILESTATUS_ADDED" value="449DAB"/>
-        <option name="FILESTATUS_DELETED" value="914C54"/>
+        <option name="FILESTATUS_ADDED" value="9dbf95"/>
+        <option name="FILESTATUS_MODIFIED" value="8fafdb"/>
+        <option name="FILESTATUS_DELETED" value="c99fa0"/>
         <option name="FILESTATUS_IDEA_FILESTATUS_DELETED_FROM_FILE_SYSTEM" value="5E658D"/>
         <option name="FILESTATUS_IDEA_FILESTATUS_IGNORED" value="9AA5CEE0"/>
         <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_BOTH_CONFLICTS" value="C3985C"/>
         <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_CONFLICTS" value="C3985C"/>
         <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_PROPERTY_CONFLICTS" value="C3985C"/>
         <option name="FILESTATUS_MERGED" value="73DACA"/>
-        <option name="FILESTATUS_MODIFIED" value="6183BB"/>
         <option name="FILESTATUS_NOT_CHANGED_IMMEDIATE" value="737AA2"/>
         <option name="FILESTATUS_NOT_CHANGED_RECURSIVE" value="737AA2"/>
         <option name="FILESTATUS_UNKNOWN" value="914C54"/>
