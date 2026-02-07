@@ -15,14 +15,18 @@ repo name must be unique so the new one is `tokyodark-jetbrains`.
 
 ## Available Themes
 
+Tokyo Dark Islands
+> [!CAUTION]
+> Only available for IntelliJ Version 2025.3+
+> A notification warning will popup when forcing the theme on older version
+
+![Tokyo Dark Islands](./static/tokyodark_islands.png)
+
 Tokyo Night Dark
 ![Tokyo Night Dark](./static/tokyonight_dark.png)
 
 Tokyo Night Storm
 ![Tokyo Night Storm](./static/tokyonight_storm.png)
-
-Tokyo Dark Islands
-![Tokyo Dark Islands](./static/tokyodark_islands.png)
 
 Tokyo Dark Contrast
 ![Tokyo Dark Contrast](./static/tokyodark_contrast.png)
