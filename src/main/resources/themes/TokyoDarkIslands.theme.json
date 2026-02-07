@@ -240,14 +240,23 @@
       "Button.arc.compact": 8
     },
     "Window.undecorated.border": "1,1,1,1,#414868",
+    "DefaultTabs": {
+      "hoverBackground": "fgGutter",
+      "background": "bgHi",
+      "borderColor": "bg",
+      "underlineColor": "purple",
+      "underlinedTabBackground": "bg"
+    },
     "EditorTabs": {
       "background": "bgHi",
       "hoverBackground": "bg-control-transparent",
       "hoverInactiveBackground": "bg-control-transparent",
       "inactiveColoredFileBackground": "#1a1b2680",
       "underTabsBorderColor": "separatorColor",
-      "underlinedBorderColor": "accent-brand-border",
-      "inactiveUnderlinedTabBorderColor": "separatorColor",
+      "underlinedBorderColor": "#36426b",
+      "underlinedTabForeground": "fg",
+      "underlinedTabBackground": "#36426b",
+      "inactiveUnderlinedTabBorderColor": "#36426b",
       "inactiveUnderlinedTabBackground": "bg",
       "underlineHeight.compact": 1
     },
@@ -340,13 +349,13 @@
       "EvaluateExpression.background": "hoverBackground"
     },
     "FileColor": {
-      "Yellow": "#e0af6805",
-      "Green": "#9ece6a05",
-      "Orange": "#ff9e6405",
-      "Rose": "#f7768e05",
-      "Violet": "#bb9af705",
-      "Blue": "#7aa2f71a",
-      "Gray": "#737aa21a"
+      "Yellow": "#291f1c",
+      "Green": "#1c261c",
+      "Orange": "#45322B",
+      "Rose": "#472B2B",
+      "Violet": "#3B3147",
+      "Blue": "#1D3D3B",
+      "Gray": "#35363B"
     },
     "Component": {
       "arc": 8,
