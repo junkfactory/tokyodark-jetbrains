@@ -26,7 +26,7 @@
     "magenta2": "#9d7cd8",
     "purple": "#9d7cd8",
     "orange": "#ff9e64",
-    "yellow": "#e0af68",
+    "yellow": "#C3985C",
     "green": "#9ece6a",
     "green1": "#73daca",
     "green2": "#41a6b5",
@@ -337,7 +337,7 @@
     "ComboPopup.border": "1,1,1,1,#414868",
     "Debugger": {
       "Variables": {
-        "valueForeground": "#e0af68",
+        "valueForeground": "#C3985C",
         "collectingDataForeground": "#737aa2",
         "evaluatingExpressionForeground": "#737aa2",
         "changedValueForeground": "#7aa2f7",
@@ -652,8 +652,8 @@
       "border": "com.intellij.ui.components.DarculaSearchFieldWithExtensionBorder"
     },
     "SearchMatch": {
-      "startBackground": "#e0af68",
-      "endBackground": "#e0af68"
+      "startBackground": "#C3985C",
+      "endBackground": "#C3985C"
     },
     "SearchOption": {
       "selectedBackground": "accent-brand-bg-muted",
@@ -781,10 +781,10 @@
         "hoverBorderColor": "#41a6b5"
       },
       "Alert": {
-        "foreground": "#e0af68",
+        "foreground": "#C3985C",
         "background": "#292e42",
         "borderColor": "#ff9e64",
-        "hoverForeground": "#e0af68",
+        "hoverForeground": "#C3985C",
         "hoverBackground": "#414868",
         "hoverBorderColor": "#ff9e64"
       },
@@ -830,7 +830,7 @@
         "borderColor": "#414868"
       },
       "GitLog": {
-        "headIconColor": "#e0af68",
+        "headIconColor": "#C3985C",
         "localBranchIconColor": "#73daca",
         "otherIconColor": "#737aa2",
         "remoteBranchIconColor": "#bb9af7",
@@ -882,7 +882,7 @@
       "Color2": {
         "MainToolbarGradientStart": "#414868",
         "Avatar": {
-          "Start": "#e0af68",
+          "Start": "#C3985C",
           "End": "#ff9e64"
         }
       },
@@ -976,7 +976,7 @@
       }
     },
     "UnattendedHostStatus": {
-      "warningBackground": "#e0af68",
+      "warningBackground": "#C3985C",
       "warningForeground": "#1a1b26",
       "dangerBackground": "#f7768e"
     },
@@ -1124,7 +1124,7 @@
       "Actions.Orange": "#FF9E64",
       "Actions.Purple": "#9D7CD8",
       "Actions.Red": "#F7768E",
-      "Actions.Yellow": "#E0AF68",
+      "Actions.Yellow": "#C3985C",
       "Actions.Gray": "#737aa2",
       "Actions.White": "#C0CAF5",
       "Actions.Black": "#161720",
@@ -1138,8 +1138,8 @@
       "Objects.Purple": "#9D7CD8",
       "Objects.Red": "#F7768E",
       "Objects.RedStatus": "#F7768E",
-      "Objects.Yellow": "#E0AF68",
-      "Objects.YellowDark": "#E0AF68",
+      "Objects.Yellow": "#C3985C",
+      "Objects.YellowDark": "#C3985C",
       "Objects.BlackText": "#737aa2",
       "Tree.iconColor": "#7aa2f7"
     }
